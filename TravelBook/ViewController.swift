@@ -61,6 +61,8 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         if selectedTitle != ""{
             saveButton.isHidden = true
+            titleText.isEnabled = false
+            subTitleText.isEnabled = false
             let idString = selectedID.uuidString
             let appDelegate = UIApplication.shared.delegate as! AppDelegate
             let context = appDelegate.persistentContainer.viewContext
