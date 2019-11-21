@@ -14,6 +14,7 @@
 		C5B7EE502386725A00C11D2C /* TravelBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5B7EE4E2386725A00C11D2C /* TravelBook.xcdatamodeld */; };
 		C5B7EE522386725C00C11D2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5B7EE512386725C00C11D2C /* Assets.xcassets */; };
 		C5B7EE552386725C00C11D2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5B7EE532386725C00C11D2C /* LaunchScreen.storyboard */; };
+		C5B7EE5D2386A27200C11D2C /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B7EE5C2386A27200C11D2C /* MainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C5B7EE512386725C00C11D2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5B7EE542386725C00C11D2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5B7EE562386725C00C11D2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5B7EE5C2386A27200C11D2C /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				C5B7EE532386725C00C11D2C /* LaunchScreen.storyboard */,
 				C5B7EE562386725C00C11D2C /* Info.plist */,
 				C5B7EE4E2386725A00C11D2C /* TravelBook.xcdatamodeld */,
+				C5B7EE5C2386A27200C11D2C /* MainController.swift */,
 			);
 			path = TravelBook;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				C5B7EE4A2386725A00C11D2C /* ViewController.swift in Sources */,
 				C5B7EE462386725A00C11D2C /* AppDelegate.swift in Sources */,
 				C5B7EE482386725A00C11D2C /* SceneDelegate.swift in Sources */,
+				C5B7EE5D2386A27200C11D2C /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
